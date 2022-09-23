@@ -1,19 +1,24 @@
+/* styling for whole webpage*/
 *{
     margin:0;
     padding:0;
     
 }
+/* Styling for the content of webpage*/
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
+/* Styling for h3 heading */
 h3{
     margin-top: 10px;
 }
+/* Styling for footer */
 footer{
     position: fixed;
     bottom: 0px;
     right:0px;
 }
+/* Class created for the haeding for the page*/
 .banner{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -27,6 +32,7 @@ footer{
     
     background-color: rgb(231, 231, 231);
 }
+/* class is created for the navigation bar */
 .navi{
     background-color: black;
 }
@@ -50,16 +56,19 @@ footer{
 .navi li a:active{
     background-color: green;
 }
+/* class created for footer */
 .footer{
     text-align: right;
     background-color: rgb(231, 231, 231);
     color:black;
 }
+/* class created for the the content of webpage*/
 .content{
     font-size:"10px";
     margin-left: 40px;
 
 }
+/* id created */
 #div1{
     float:left;
     width:60%;
