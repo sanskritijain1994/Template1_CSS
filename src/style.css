@@ -8,9 +8,14 @@
 body{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
 }
-/* Styling for h3 heading */
-h3{
+/* Styling for h2 heading */
+h2{
     margin-top: 10px;
+    color:blue
+}
+h3{
+    margin-top:10px;
+    color:blue;
 }
 /* Styling for footer */
 footer{
@@ -80,8 +85,17 @@ footer{
     height:500px;
     background-color: rgb(231, 231, 231);
 }
+.div2 h3{
+    padding-left: 10px;
+}
+.div2 p{
+    padding-left: 10px;
+}
 .div3{
     width:1400px;
     height: 30px;
-    background:rgb(231, 231, 231);
+    background:rgb(214, 211, 211);
+}
+.div3 p{
+    padding-top:7px;
 }
